@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: https://text-to-image-bucket-lcl50j80.s3.us-west-2.amazonaws.com/SEdufit-Build-Project/function.zip
+  - source: https://text-to-image-bucket-hmwd1zvx.s3.us-west-2.amazonaws.com/SEdufit-Build-Project/function.zip
     destination: /tmp/function.zip
 hooks:
   AfterInstall:
