@@ -3,8 +3,3 @@ os: linux
 files:
   - source: https://text-to-image-bucket-hmwd1zvx.s3.us-west-2.amazonaws.com/SEdufit-Build-Project/function.zip
     destination: /tmp/function.zip
-hooks:
-  AfterInstall:
-    - location: ./deploy_lambda.sh
-      timeout: 180
-      runas: root
