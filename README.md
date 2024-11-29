@@ -11,8 +11,3 @@ export SYSTEM=<TEMPLATE>
 .venv/bin/avtivate
 pip3 install -r requirements.txt
 ```
-
-## run
-```
-python3 test.py
-```
